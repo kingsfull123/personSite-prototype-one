@@ -1,3 +1,22 @@
+@import 'normalize.css';
+
+$mainRed: #FF0000;
+
+
 h1 {
-	color: red;
+	color: $mainRed;
+	
 }
+
+body {
+    columns: 230px 2;
+}
+
+body {
+    h1 {
+        font-weight: 800;
+    }
+}
+
+
+
